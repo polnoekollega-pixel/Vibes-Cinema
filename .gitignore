@@ -1,0 +1,15 @@
+# Служебные файлы редакторов и ОС
+.idea/
+.vscode/
+*.log
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Временные файлы проверки вёрстки
+_preview*
+*-verify/
+
+# Локальные настройки подключения к БД
+includes/config.local.php
