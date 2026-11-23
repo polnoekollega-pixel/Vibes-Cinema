@@ -1,12 +1,12 @@
 ﻿<?php
 /**
- * Vibes Cinema — онлайн-кинотеатр
+ * Illuminos — онлайн-кинотеатр
  * Файл конфигурации: параметры подключения к базе данных и общие настройки сайта
  */
 
 // Параметры подключения к СУБД MySQL (Denwer/OpenServer/XAMPP)
 define('DB_HOST', 'localhost');     // хост базы данных
-define('DB_PORT', 3308);            // порт MySQL в OSPanel (профиль: MySQL-5.7-Win10, mysqlport=3308)
+define('DB_PORT', 3306);            // порт MySQL в OSPanel по умолчанию (MariaDB-10.8-Win10)
 define('DB_NAME', 'illuminos');     // имя базы данных
 define('DB_USER', 'root');          // пользователь MySQL
 define('DB_PASS', '');              // пароль MySQL (по умолчанию пустой)
