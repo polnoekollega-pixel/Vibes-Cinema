@@ -91,8 +91,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="auth-demo">
                 <strong>Демо-доступ:</strong><br>
                 Администратор — <code>admin</code> / <code>12345678</code><br>
-                Подписчик — <code>ivanov</code> / <code>12345678</code><br>
-                Пользователь — <code>petrova</code> / <code>12345678</code>
             </div>
         </div>
     </div>
